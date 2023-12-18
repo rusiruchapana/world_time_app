@@ -8,7 +8,7 @@ import 'pages/loading.dart';
 void main() {
   return runApp(MaterialApp(
     debugShowCheckedModeBanner: false,
-    initialRoute: '/',
+    initialRoute: '/loading',
     routes: {
       '/': (context) => Home(),
       '/location': (context) => ChooseLocation(),
