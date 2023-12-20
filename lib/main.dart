@@ -10,7 +10,7 @@ void main() {
     debugShowCheckedModeBanner: false,
     initialRoute: '/loading',
     routes: {
-      '/': (context) => Home(),
+      '/': (context) => HomeScreen(),
       '/location': (context) => ChooseLocation(),
       '/loading': (context) => Loading()
     },
